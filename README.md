@@ -21,10 +21,6 @@ venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ``````
 
-## Run the dashboard
-``````bash
-streamlit run dashboard/app.py
-``````
 ## Power BI Dashboard
 
 Open `powerbi/northfield_dashboard.pbix` in Power BI Desktop (free download
