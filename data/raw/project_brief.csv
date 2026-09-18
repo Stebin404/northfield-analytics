@@ -1,0 +1,23 @@
+Unnamed: 0,Your project,Unnamed: 2
+,Northfield & Co. — analytics case study,
+,,
+,The task,
+,"Build a dashboard that summarises the data and tells a clear business story. Explore what you find important: changes over time, patterns in marketing activity, promotional periods, or opportunities for improvement.",
+,Explain your main findings and suggest what the business should do or investigate next.,
+,,
+,The data,
+,Check the Glossary and Master data tabs in this workbook. The Business brief tab describes the company and its channels.,
+,,
+,How you approach it,
+,"Choose your own tools, methods, and visualisations. Document important data checks and assumptions, and distinguish observed relationships from causal claims.",
+,"Focus on exploratory analysis, clear reasoning, and business insights. Machine learning models are not required.",
+,,
+,You will be evaluated on,
+,Business understanding,"What you can summarise about the business, supported by evidence."
+,Recommendations,How useful and well-supported your proposed actions or next steps are.
+,Analytical reasoning,"How well you explain and defend your methods, assumptions, and limitations."
+,Visual storytelling,How clearly your dashboard communicates the findings and is easy to use.
+,,
+,What to submit,
+,"A dashboard, a brief summary of your key findings and recommendations, and supporting analysis with enough instructions to review or run your work. Be ready to walk us through your choices.",
+,Submission mode,"Either a hosted link to your dashboard, or a link to your git repo with detailed instructions on how to deploy."

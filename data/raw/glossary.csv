@@ -1,0 +1,27 @@
+Glossary — Master data fields,Unnamed: 1,Unnamed: 2,Unnamed: 3
+"One row per column in the Master data tab, in the same order.",,,
+,,,
+Field,Category,Unit,Definition
+Date,Dimension,Date,Calendar day (US Eastern) to which all metrics in the row are attributed.
+UWG_Mailing,Control (binary),0 / 1,1 on days a customer mailing coded 'UWG' (email + direct-mail campaign to the loyalty file) was sent; 0 otherwise.
+BFCM_Promo_Effect,Control (binary),0 / 1,1 during the Black Friday / Cyber Monday promotional window each year; 0 otherwise.
+holiday_list,Control (binary),0 / 1,"1 on US public and retail holidays (e.g. Easter, Memorial Day, Independence Day, Labor Day, Thanksgiving, Christmas, New Year's Day); 0 otherwise."
+Offline_Promo,Control (binary),0 / 1,1 on days an in-store promotion was running in Northfield's physical stores; 0 otherwise.
+Promotion_Discount,Control (binary),0 / 1,1 on days a site-wide online discount or promo code was live; 0 = full-price day.
+Total_Revenue,KPI (primary),USD,"Daily net online revenue (site + app) after discounts and returns, excluding shipping and sales tax."
+Revenue_New_Customer,KPI (secondary),USD,Portion of Total_Revenue from customers placing their first-ever order with the brand.
+influencer_spend,Paid influencer,USD,"Fees paid for sponsored creator content, booked on the day the content went live. Zero on most days."
+Awin_spend,Affiliate,USD,"Commission and network fees paid to the Awin affiliate network (cashback, coupon and content publishers)."
+microsoft_spend,Paid search,USD,Microsoft Advertising (Bing) search and shopping spend.
+criteo_spend,Paid display,USD,Criteo dynamic retargeting display spend.
+cost_outbrain,Paid native,USD,Outbrain native content-recommendation ad spend.
+spend_Google_Branded,Paid search,USD,Google Search text ads on brand-name keywords.
+spend_Google_Non_Branded,Paid search,USD,"Google Search text ads on generic, non-brand keywords."
+spend_Google_PMAX,Paid search / performance,USD,"Google Performance Max campaigns (automated across Search, Shopping, YouTube, Display, Discover, Gmail, Maps)."
+spend_Google_Demand_Gen,Paid social / video,USD,"Google Demand Gen campaigns (YouTube, Discover and Gmail feeds)."
+spend_Google_Others,Paid display / video,USD,"Remaining Google Ads formats not covered above (Display, standard video, app). Zero on about half of days."
+spend_Meta_ASC,Paid social,USD,Meta (Facebook + Instagram) Advantage+ shopping campaigns.
+spend_Meta_Retargeting,Paid social,USD,"Meta campaigns targeting site visitors, cart abandoners and CRM segments."
+spend_Meta_Prospecting,Paid social,USD,"Meta campaigns targeting new audiences (broad, interest and lookalike)."
+spend_Google,Roll-up,USD,Total Google Ads spend as reported by the platform: the sum of the five spend_Google_* lines. Do not add to the components.
+spend_Meta,Roll-up,USD,Total Meta Ads spend as reported by the platform: the sum of the three spend_Meta_* lines (small rounding differences vs the components are as reported). Do not add to the components.
