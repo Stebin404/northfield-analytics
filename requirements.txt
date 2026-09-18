@@ -1,0 +1,12 @@
+@"
+pandas
+numpy
+openpyxl
+matplotlib
+seaborn
+plotly
+streamlit
+jupyter
+"@ | Out-File -Encoding utf8 requirements.txt
+
+pip install -r requirements.txt
