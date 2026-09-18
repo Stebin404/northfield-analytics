@@ -25,8 +25,6 @@ pip install -r requirements.txt
 ``````bash
 streamlit run dashboard/app.py
 ``````
-"@ | Out-File -Encoding utf8 README.md
-
 ## Power BI Dashboard
 
 Open `powerbi/northfield_dashboard.pbix` in Power BI Desktop (free download
